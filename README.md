@@ -8,6 +8,7 @@
     <img src="https://img.shields.io/badge/Node.js-v14.17.5-brightgreen">
     <img src="https://img.shields.io/badge/Lenguaje-JavaScript-yellow"
   </a>
-  <a href="https://github.com/23Savagee">
-    <img src="https://komarev.com/ghpvc/?username=23Savagee&style=flat&color=blue">
+  <a href="https://github.com/23Savagee/SatoriClear-Selfbot/">
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=23Savagee.SatoriClear-Selfbot" /></a>
+    
   </a> 
