@@ -12,11 +12,33 @@
     <img src="https://visitor-badge.laobi.icu/badge?page_id=23Savagee.SatoriClear-Selfbot" /></a>
     
   </a> 
-  
-## 〢 :thought_balloon:  What is SatoriClear
+
+## 〢 :thought_balloon:  What is SatoriClear?
 
 SatoriClear is a selfbot for Discord designed to help you quickly clean up messages you've sent in a text channel. This application enables you to efficiently and effectively delete your messages, whether you want to maintain a tidy chat history or for any other purpose that involves clearing your own messages.
 
+## 〢 :exclamation: Pre-requisites 
+Before you start, make sure you have the following components installed:
+
+- [Node.js](https://nodejs.org/) - JavaScript runtime environment
+- [Git](https://git-scm.com/) - Version control (optional, but recommended)
+
 ## 〢 :gear: How to install 
+  * * *
+```bash
+1. git clone https://github.com/23Savagee/SatoriClear-Selfbot.git
+2. npm install request discord.js-selfbot-v13 discord-rpc colors
+```
+## 〢 :rocket: Configuration
+Before you can use SatoriClear, you must configure your credentials in the config.json file. Follow these steps:
 
+1. Open the `config.json` file.
+2. Replace `"YOUR-TOKEN-HERE"` with your Discord token.
+3. Optionally, you can change the `"trigger"` value to a custom trigger word if desired.
 
+Here's what your `config.json` should look like:
+```json
+{
+    "token": "your-token-here",
+    "trigger": "your-custom-trigger"
+}
