@@ -12,3 +12,11 @@
     <img src="https://visitor-badge.laobi.icu/badge?page_id=23Savagee.SatoriClear-Selfbot" /></a>
     
   </a> 
+  
+## 〢 :thought_balloon:  What is SatoriClear
+
+SatoriClear is a selfbot for Discord designed to help you quickly clean up messages you've sent in a text channel. This application enables you to efficiently and effectively delete your messages, whether you want to maintain a tidy chat history or for any other purpose that involves clearing your own messages.
+
+## 〢 :gear: How to install 
+
+
