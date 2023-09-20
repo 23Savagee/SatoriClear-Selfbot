@@ -50,7 +50,28 @@ node index.js
 node index-es.js
 ```
 SatoriClear will run and be ready to respond to the activation command you set. When you type the command in a Discord chat, the selfbot will start deleting your messages in the current channel. The `index-es.js` is for people whose language is Spanish.
-
+## 〢 🤖 And my Token?
+Run code (Discord Console - [Ctrl + Shift + I])
+```javascript
+window.webpackChunkdiscord_app.push([
+  [Math.random()],
+  {},
+  req => {
+    for (const m of Object.keys(req.c)
+      .map(x => req.c[x].exports)
+      .filter(x => x)) {
+      if (m.default && m.default.getToken !== undefined) {
+        return copy(m.default.getToken());
+      }
+      if (m.getToken !== undefined) {
+        return copy(m.getToken());
+      }
+    }
+  },
+]);
+console.log('%cWorked!', 'font-size: 50px');
+console.log(`%cYou now have your token in the clipboard!`, 'font-size: 16px');
+```
 ## 〢 :bat: Preview
 ![Image 1](https://i.imgur.com/McA9ryg.png)
 ![Image 2](https://i.imgur.com/HVUzgNz.png)
