@@ -40,12 +40,12 @@ function printClear() {
     ░  ░  ░    ░   ▒    ░      ░ ░ ░ ▒    ░░   ░ ░ ▒ ░    ░          ░ ░      ░    ░   ▒    ░░   ░ 
           ░        ░               ░ ░     ░       ░      ░ ░     ░    ░  ░   ░        ░     ░     
     
-                                     ● ${client.user.tag} | Type: '${trigger}' on any chat. ●
-                                     `.brightMagenta)
+                                ● ${client.user.tag} | Type: '${trigger}' on any chat. ●
+                                `.brightMagenta)
 }
 
 console.clear()
-process.title = `SatoriClear - Loading...`
+process.title = `SatoriClear - Launching...`
 console.log(`
 
 
@@ -142,7 +142,7 @@ function clear(authToken, authorId, channelId) {
 
 client.on('ready', async () => {
     console.clear()
-    process.title = `SatoriClear | Connected in: ${client.user.username}`
+    process.title = `SatoriClear | Running as: ${client.user.username}`
     printClear()
 })
 
