@@ -42,3 +42,16 @@ Here's what your `config.json` should look like:
     "token": "your-token-here",
     "trigger": "your-custom-trigger"
 }
+```
+## 〢 :dart: Use
+Once you have configured the project, you can start SatoriClear by executing the following command:
+```bash
+node index.js
+node index-es.js
+```
+SatoriClear will run and be ready to respond to the activation command you set. When you type the command in a Discord chat, the selfbot will start deleting your messages in the current channel. The `index-es.js` is for people whose language is Spanish.
+
+## 〢 :bat: Preview
+![Image 1](https://i.imgur.com/McA9ryg.png)
+![Image 2](https://i.imgur.com/HVUzgNz.png)
+
