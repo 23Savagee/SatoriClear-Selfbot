@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.python.org">
+  <a href="https://nodejs.org/es">
     <img src="https://img.shields.io/badge/License-MIT-important">
     <img src="https://img.shields.io/badge/Node.js-v14.17.5-brightgreen">
     <img src="https://img.shields.io/badge/Language-JavaScript-yellow"
